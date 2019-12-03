@@ -99,7 +99,7 @@ if(canvas) {
 }
 
 Array.from(colors).forEach(
-    // color는 array안에 들어가는 각각의 아이템 대표로 이름은 무의미하다
+    // color는 array안에 들어가는 각각의 아이템 대표일 뿐 이름 자체의 큰 의미는 없다.
     // 배열된 각 컬러를 클릭하면 handleColorClick을 반환하라
     color => color.addEventListener("click", handleColorClick)
 );
